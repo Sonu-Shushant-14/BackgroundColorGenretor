@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.hero h3 {
+  margin-top: 7px;
+  font-size: 40px;
+  font-weight: 760;
+}
+
+.hero p {
+  margin-bottom: 15px;
+  font-size: 20px;
+
+}
+
+/* 
+.container {
+  border: 1px solid black;
+  display: flex;
+  gap: 5px;
+  width: 800px;
+  min-height: 120px;
+}
+
+.circle {
+  border: 1px solid black;
+  min-width: 14.1%;
+  border-radius: 50%;
+  padding: 20px;
+} */
+
+.container {
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(4, 2, 2, 0.5);
+  box-shadow: 8px 7px 14px;
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#box1{
+  background-color: red;
+  border: none;
+}
+#box2{
+  background-color: rgb(89, 0, 255);
+  border: none;
+
+}
+
+#box3{
+  background-color: rgb(44, 116, 189);
+  border: none;
+
+}
+
+#box4{
+  background-color: rgb(0, 255, 21);
+  border: none;
+
+}
+
+#box5{
+  background-color: rgb(255, 0, 119);
+  border: none;
+
+}
+
+#box6{
+  background-color: rgb(0, 166, 255);
+  border: none;
+
+}
+
+#box7{
+  background-color: rgb(255, 0, 76);
+  border: none;
+
+}
+
+.logohtmlcss{
+   margin: 15px;
+ }
+
